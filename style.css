@@ -146,6 +146,28 @@ footer {
     color: #ff7437 !important;
     transition: 1s;
 }
+    span {
+        overflow: hidden;
+        display: inline;
+        position: relative;
+    }
+
+    span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 100%;
+        bottom: -5px;
+        background: #ff7437;
+        height: 3px;
+        transition-duration: 0.8s;
+        transition-timing-function: ease-out;
+
+    }
+    span:hover::after{
+        right: 0;
+    }
+
 
 /* footer contact info */
 .contect h5 {
