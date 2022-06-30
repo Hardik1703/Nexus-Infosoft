@@ -1,0 +1,280 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive !important;
+}
+
+.color {
+    background-color: #0F0F0F;
+}
+
+.h-line{
+    width:150px;
+    height: 1.7px;
+    margin: 0 auto;
+}
+
+/* navbar start */
+.navbar {
+    background-color: #151515 !important;
+}
+
+.nav-item a {
+    transition: 1s;
+}
+
+.nav-item a:hover {
+    color: #ff7437 !important;
+    transition: 1s;
+}
+
+.dropdown-menu {
+    background-color: #151515 !important;
+}
+
+.dropdown-menu a {
+    color: white !important;
+}
+
+.dropdown-menu a:hover {
+    color: #ff7437 !important;
+    background-color: black !important;
+}
+
+/* about */
+.featurette-heading,
+.bd-placeholder-img {
+    margin-top: 100px !important;
+}
+
+/* flexbox */
+.d-inline-block {
+    font-size: 20px;
+}
+
+strong{
+    text-emphasis-color: #ff7437 !important;
+}
+/* Home Service */
+.homeService{
+    background-color: #151515 !important;
+}
+.pop{
+    transition: all 0.3s;
+    border-color: #151515 !important;
+}
+.pop:hover{
+    border-top-color: #ff7437 !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+
+
+/* service page */
+.serviceBottom {
+    padding-bottom: 3rem;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.service img {
+    border-radius: 5% !important;
+}
+
+
+/* contect page */
+
+.contectLabel{
+    border-color: #000 !important;
+}
+
+.contectLabel:hover{
+    border-color: #ff7437 !important;
+}
+
+.contectForm {
+    min-height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image/contect_background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+
+}
+
+.c-form {
+    margin-top: 4rem !important;
+    padding-top: 4rem !important;
+}
+
+.c-btn button {
+    background-color: #ae522b;
+    color: rgb(26, 24, 24);
+    transition: 1s;
+}
+
+.c-btn button:hover {
+    background-color: #ff7437;
+    color: #000;
+    transition: 1s;
+}
+
+.form-control {
+    text-transform: capitalize;
+}
+
+.container label {
+    font-weight: bolder;
+}
+
+/* team */
+.card {
+    margin-top: 3rem !important;
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+    width: 18rem !important;
+    background-color: #0F0F0F;
+}
+
+.team h5,
+.team p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.address {
+    text-align: center !important;
+    font-size: 20px !important;
+    font-weight: bolder !important;
+}
+
+/* image black in white after colorfull */
+.img {
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.img:hover {
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+.card {
+    border: none !important;
+}
+
+.card img {
+    border-radius: 30px;
+}
+
+
+/* end */
+
+/* footer start */
+footer {
+    background-color: #151515 !important;
+    display: flex !important;
+}
+
+.menu h5 {
+    color: #ff7437 !important;
+    font-weight: bolder !important;
+    font-family: inherit !important;
+    line-height: 60px;
+}
+
+.menu a {
+    line-height: 42px;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #ff7437 !important;
+    transition: 1s;
+}
+
+span {
+    overflow: hidden;
+    display: inline;
+    position: relative;
+}
+
+span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    border-radius: 50%;
+    bottom: -5px;
+    background: #ff7437;
+    height: 3px;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-out;
+
+}
+
+span:hover::after {
+    right: 0;
+}
+
+
+/* footer contact info */
+.contect h5 {
+    color: #ff7437 !important;
+    font-weight: bolder !important;
+    font-family: inherit !important;
+    line-height: 60px;
+}
+
+.contect a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 35px;
+    display: block;
+}
+
+.contect li {
+    margin-bottom: 23px !important;
+}
+
+.contect img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    bottom: 0;
+}
+
+.filter img {
+    filter: invert(100%);
+}
+
+.facebook {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.facebook:hover {
+    background-color: white !important;
+}
+
+/* footer end Color */
+.footerColor {
+    background-color: #ff7437;
+}
+
+
+@media(max-width:992px) {
+    .nav-item a {
+        text-align: center;
+    }
+}
